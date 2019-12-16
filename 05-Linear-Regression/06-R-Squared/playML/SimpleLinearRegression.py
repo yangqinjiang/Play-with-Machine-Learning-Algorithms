@@ -1,4 +1,5 @@
 import  numpy as np
+from .metrics import  r2_score
 #  简单的线性回归模型,foreach计算
 class SimpleLinearRegression1:
     def __init__(self):
@@ -52,6 +53,11 @@ class SimpleLinearRegression1:
          # 使用简单线性回归的公式
          return  self.a_ * x_single + self.b_
 
+    def score(self,x_test,y_test):
+        """根据预测数据集 x_test 和y_test确定当前模型的准确度"""
+        y_predict = self.predict(x_test)
+        return  r2_score(y_test,y_predict)
+
     def __repr__(self):
          return  "SimpleLinearRegression1()"
 
@@ -104,6 +110,11 @@ class SimpleLinearRegression2:
 
          # 使用简单线性回归的公式
          return  self.a_ * x_single + self.b_
+
+    def score(self,x_test,y_test):
+        """根据预测数据集 x_test 和y_test确定当前模型的准确度"""
+        y_predict = self.predict(x_test)
+        return  r2_score(y_test,y_predict)
 
     def __repr__(self):
          return  "SimpleLinearRegression2()"
