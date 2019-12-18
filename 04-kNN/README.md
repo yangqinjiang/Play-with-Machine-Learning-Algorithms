@@ -10,7 +10,7 @@
 - 预测结果不具有可解释性
 - 维数灾难:随着维度的增加, "看似相近" 的两个点之间的距离越来越大
 
-![avatar](image/1.png)
+![avatar](images/1.png)
 
 ## KNN回顾:
-![avatar](image/2.png)
+![avatar](images/2.png)
