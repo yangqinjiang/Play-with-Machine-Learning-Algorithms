@@ -43,11 +43,8 @@ class LinearRegression:
             
         def dJ(theta,X_b,y):
             """对线性回归方程求导"""
-            res = np.empty(len(theta))  # 创建一个临时的数组
-            res[0] = np.sum(X_b.dot(theta) -y ) # 计算第一列的
-            for i in range(1,len(theta)):
-                res[i] = (X_b.dot(theta) - y).dot(X_b[:,i])
-            return res * 2 / len(X_b)
+            # 向量化 运算
+            return X_b.T.dot(X_b.dot(theta) - y) * 2. /len(y)
 
         def gradient_descent(X_b,y,initial_theta,eta,n_iters=1e4,epsilon=1e-8):
             """适用于线性回归方程的梯度下降法"""
