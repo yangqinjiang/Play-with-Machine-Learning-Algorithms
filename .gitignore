@@ -1,3 +1,4 @@
 *.mat
 *.pyc
 .idea/
+mnist_dataset
