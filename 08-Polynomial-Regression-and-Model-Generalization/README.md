@@ -19,6 +19,16 @@
 
 
 ### Validation 和Cross Validation( 验证数据集与交叉验证)
-![avatar](images/5.png)
-![avatar](images/6.png)
+- 留一法: 把训练数据集分成m份,称为留一法 Leave-one-out cross validation
+  完全不受随机的影响,最接近模型真正的性能指标
+  缺点:计算量大
+
+- ![avatar](images/5.png)
+- ![avatar](images/6.png)
+### 偏差和方差, 以靶子为例
+- ![avatar](images/7.png)
+- ![avatar](images/8.png)
+- ![avatar](images/9.png)
+- 模型误差 = 偏差(Bias) + 方差(Variance) + 不可避免的误差
+- 机器学习的主要挑战,来自于方差
  ### 模型泛化
