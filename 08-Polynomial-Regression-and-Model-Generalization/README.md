@@ -16,4 +16,9 @@
 
 ![avatar](images/3.png)
 ![avatar](images/4.png)
+
+
+### Validation 和Cross Validation( 验证数据集与交叉验证)
+![avatar](images/5.png)
+![avatar](images/6.png)
  ### 模型泛化
