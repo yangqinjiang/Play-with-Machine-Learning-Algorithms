@@ -20,3 +20,19 @@
 # 无意义的预测模型
 - 因为精准率和召回率为0或无意义
 ![avatar](images/8.png)
+
+
+# F1 score:二者(精准率,召回率)都兼顾,是两者的调和平均值 ,取值范围: [0,  1]
+- 1,有的时候我们注重精准率(预测正确的),如股票预测 (已购买的股票)
+- 2,有的时候我们注重召回率.如病人诊断(应该预测正确所有的病人)
+![avatar](images/9.png)
+![avatar](images/10.png)
+
+# 精准率,召回率的平衡, 阈值的改变,导致不同的值
+![avatar](images/11.png)
+
+# ROC曲线
+![avatar](images/12.png)
+![avatar](images/13.png)
+![avatar](images/14.png)
+![avatar](images/15.png)
