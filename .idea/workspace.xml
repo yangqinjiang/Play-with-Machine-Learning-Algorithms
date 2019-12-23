@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ace84f-b07e-4fe8-9f0a-a7dd4c702363" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Linear-Regression/05-Regression-Metrics-MSE-vs-MAE/playML/SimpleLinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/05-Linear-Regression/05-Regression-Metrics-MSE-vs-MAE/playML/SimpleLinearRegression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,35 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-Linear-Regression/06-R-Squared/playML/metrics.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-Linear-Regression/08-Our-Linear-Regression/playML/LinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="12" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="8">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-Linear-Regression/06-R-Squared/playML/SimpleLinearRegression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -70,12 +47,13 @@
         <option value="$PROJECT_DIR$/05-Linear-Regression/06-R-Squared/playML/metrics.py" />
         <option value="$PROJECT_DIR$/05-Linear-Regression/06-R-Squared/playML/SimpleLinearRegression.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/05-Linear-Regression/08-Our-Linear-Regression/playML/LinearRegression.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="655" />
-    <option name="y" value="62" />
+    <option name="x" value="135" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="767" />
   </component>
@@ -90,6 +68,24 @@
             <path>
               <item name="Play-with-Machine-Learning-Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Play-with-Machine-Learning-Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Play-with-Machine-Learning-Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Play-with-Machine-Learning-Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Linear-Regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Play-with-Machine-Learning-Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Play-with-Machine-Learning-Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Linear-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="08-Our-Linear-Regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Play-with-Machine-Learning-Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Play-with-Machine-Learning-Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Linear-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="08-Our-Linear-Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="playML" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,8 +132,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="655" y="62" width="1400" height="767" extended-state="0" />
-    <editor active="true" />
+    <frame x="135" y="23" width="1400" height="767" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
@@ -239,13 +234,10 @@
     <entry file="file://$PROJECT_DIR$/05-Linear-Regression/06-R-Squared/playML/model_selection.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-Linear-Regression/06-R-Squared/playML/metrics.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -259,10 +251,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/05-Linear-Regression/06-R-Squared/playML/metrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="450">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Linear-Regression/08-Our-Linear-Regression/playML/LinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
