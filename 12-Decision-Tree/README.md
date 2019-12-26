@@ -8,3 +8,6 @@
 - ![avatar](images/1.jpg)
 # 资料:
 -  https://baike.baidu.com/item/%E4%BF%A1%E6%81%AF%E7%86%B5
+- 决策树算法原理(上): https://www.cnblogs.com/pinard/p/6050306.html
+- 决策树算法原理(下): https://www.cnblogs.com/pinard/p/6053344.html
+- https://www.cnblogs.com/pinard/p/6056319.html
